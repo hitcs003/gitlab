@@ -1,0 +1,70 @@
+ubuntu@ubuntu-H610M-H-V3-DDR4:~$ ls
+1HI25CD043  Documents  Music     Templates  bhumika  exp2   git-branch-lab  p5    student
+1hi25cy024  Downloads  Pictures  Videos     bindu    exp3   gitlab          shre
+Desktop     HARSHA     Public    aiml       bro      file1  music           snap
+ubuntu@ubuntu-H610M-H-V3-DDR4:~$ cd student
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ ls
+g1  g2.git  g3.txt  gitlab
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ vi g5
+
+[5]+  Stopped                    vi g5
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ cat g5
+echo "hello"
+
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ ./g5
+bash: ./g5: Permission denied
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ sudo chmod 777 g5
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ ls
+g1  g2.git  g3.txt  g5  gitlab
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ ./g5
+hello
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ git add g5
+fatal: not a git repository (or any of the parent directories): .git
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ cd gitlab
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student/gitlab$ vi g1
+
+[6]+  Stopped                    vi g1
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student/gitlab$ cat g1
+echo "welcome to gitlab"
+
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student/gitlab$ ls
+g1
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student/gitlab$ ./g1
+bash: ./g1: Permission denied
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student/gitlab$ sudo chmod 777 g1
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student/gitlab$ ./g1
+welcome to gitlab
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student/gitlab$ git add g1
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student/gitlab$ git commit -m g1
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ubuntu@ubuntu-H610M-H-V3-DDR4.(none)')
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student/gitlab$ git config --global user.email "1hi25cs003@harshainstitute.edu.in"
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student/gitlab$ git config --global user.name "hitcs003"
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student/gitlab$ git commit -m g1
+[main (root-commit) 081284f] g1
+ 1 file changed, 2 insertions(+)
+ create mode 100755 g1
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student/gitlab$ ./g1
+welcome to gitlab
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student/gitlab$ git push https://github.com/hitcs003/gitlab.git
+Username for 'https://github.com': hitcs003
+Password for 'https://hitcs003@github.com': 
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 232 bytes | 232.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/hitcs003/gitlab.git
+ * [new branch]      main -> main
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student/gitlab$ 
+

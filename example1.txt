@@ -1,0 +1,79 @@
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/exp3$ cd ..
+ubuntu@ubuntu-H610M-H-V3-DDR4:~$ ls
+1HI25CD043  Desktop    Downloads  Music     Public     Videos  bhumika  bro   exp3   git-branch-lab  p5    snap
+1hi25cy024  Documents  HARSHA     Pictures  Templates  aiml    bindu    exp2  file1  music           shre
+ubuntu@ubuntu-H610M-H-V3-DDR4:~$ mkdir student
+ubuntu@ubuntu-H610M-H-V3-DDR4:~$ ls
+1HI25CD043  Desktop    Downloads  Music     Public     Videos  bhumika  bro   exp3   git-branch-lab  p5    snap
+1hi25cy024  Documents  HARSHA     Pictures  Templates  aiml    bindu    exp2  file1  music           shre  student
+ubuntu@ubuntu-H610M-H-V3-DDR4:~$ cd student
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ y6i7e
+y6i7e: command not found
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ 
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ 
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ git clone https://github.com/hitcs003/gitlab.git
+Cloning into 'gitlab'...
+warning: You appear to have cloned an empty repository.
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ vi g1
+
+[1]+  Stopped                    vi g1
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ vi g1
+
+[2]+  Stopped                    vi g1
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ cat g1
+echo "welcome to gitlab"
+
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ ./g1
+bash: ./g1: Permission denied
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ ls
+g1  gitlab
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ sudo chmod 777 g1
+[sudo: authenticate] Password:        
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ ls
+g1  gitlab
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ ./g1
+welcome to gitlab
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ git add g1
+fatal: not a git repository (or any of the parent directories): .git
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ git commit -m "save"
+fatal: not a git repository (or any of the parent directories): .git
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ 
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ 
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ 
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ 
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ 
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ 
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ 
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ 
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ 
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ 
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ 
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ sdgv 
+Command 'sdgv' not found, did you mean:
+  command 'sdcv' from deb sdcv (0.5.5-3build1)
+Try: sudo apt install <deb name>
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ ~6
+i4ry~6: command not found
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ i4ryhjk,
+]i4ryhjk,: command not found
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ ]bb
+Command ']bb' not found, did you mean:
+  command 'bb' from deb bb (1.3rc1-13build1)
+  command 'fbb' from deb fbb (7.011-3)
+Try: sudo apt install <deb name>
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ cd ..
+ubuntu@ubuntu-H610M-H-V3-DDR4:~$ ls
+1HI25CD043  Desktop    Downloads  Music     Public     Videos  bhumika  bro   exp3   git-branch-lab  p5    snap
+1hi25cy024  Documents  HARSHA     Pictures  Templates  aiml    bindu    exp2  file1  music           shre  student
+ubuntu@ubuntu-H610M-H-V3-DDR4:~$ cd student
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ ls
+g1  gitlab
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ ./g1
+welcome to gitlab
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ git clone https://github.com/hitcs003/gitlab.git
+fatal: destination path 'gitlab' already exists and is not an empty directory.
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ git add g1
+fatal: not a git repository (or any of the parent directories): .git
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ ^Ct clone https://github.com/hitcs003/gitlab.git
+ubuntu@ubuntu-H610M-H-V3-DDR4:~/student$ 
+
